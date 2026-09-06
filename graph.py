@@ -16,7 +16,6 @@ load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
 # 2. Initialize the LLM explicitly with the key
-# We use gemini-1.5-flash for free, fast, structured outputs
 # We use gemini-3.5-flash for free, fast, structured outputs
 llm = ChatGoogleGenerativeAI(
     model="gemini-3.5-flash",
