@@ -81,3 +81,5 @@ GITHUB_TOKEN=your_github_pat
 
 3. **Configure GitHub:**
    Go to your repository settings -> Webhooks. Add your ngrok URL (`https://<your-ngrok-url>/webhook`), set the Content type to `application/json`, and paste your webhook secret.
+
+*Maintained by the core development team.*
